@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const REST_API_URL = "http://eduverse.ap-south-1.elasticbeanstalk.com/api/departments";
+const REST_API_URL = "/api/departments"; 
 
 export const listDepartments = () => {
   return axios.get(REST_API_URL);
